@@ -2,14 +2,14 @@
 
 :root {
 	--text-color: #232323;
-	--primary-color: #7345bd;
-	--primary-color-hover: #a531a5;
-	--secondary-color: #f0e63a;
-	--secondary-color-hover: #f0d400;
+	--primary-color: #a53192;
+	--primary-color-hover: #732845;
+	--secondary-color: #7df03a;
+	--secondary-color-hover: #38f000;
 	--background-color: #e8f1ff;
 	--background-color-2: #d4e1f4;
-	--variant-background-color: #314ca5;
-	--variant-background-color-2: #283a73;
+	--variant-background-color: #a53192;
+	--variant-background-color-2: #732845;
 	--cancel-color: #f73e3e;
 
 	--max-width: 1100px;
