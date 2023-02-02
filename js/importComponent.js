@@ -30,7 +30,7 @@ async function main() {
 			if (src.startsWith("/")) {
 				let sliced = src.slice(1)
 				let newSrc = relative + sliced
-				links.setAttribute("href", newSrc)
+				links.setAttribute("src", newSrc)
 			}
 		}
 
