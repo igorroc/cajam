@@ -10,21 +10,31 @@ async function main() {
 	for (let element of elements) {
 		const path = element.getAttribute("path")
 		const relative = element.getAttribute("relative-path")
-		const importedElement = await fetchComponent(relative, path)
-		const props = element.getAttribute("props")
+		let importedElementString = await fetchComponent(relative, path)
 
-		if (props) {
-			console.log(props)
-			const propsObj = JSON.parse(props)
-			console.log(propsObj)
-			// for (let key in propsObj) {
-			// 	const value = propsObj[key]
+		let doc = new DOMParser().parseFromString(
+			importedElementString,
+			"text/html"
+		)
 
-			// 	console.log(value, regex)
-			// }
+		for (let links of doc.querySelectorAll("[href]")) {
+			let href = links.getAttribute("href")
+			if (href.startsWith("/")) {
+				let sliced = href.slice(1)
+				let newHref = relative + sliced
+				links.setAttribute("href", newHref)
+			}
+		}
+		for (let links of doc.querySelectorAll("[src]")) {
+			let src = links.getAttribute("src")
+			if (src.startsWith("/")) {
+				let sliced = src.slice(1)
+				let newSrc = relative + sliced
+				links.setAttribute("href", newSrc)
+			}
 		}
 
-		element.insertAdjacentHTML("afterend", importedElement)
+		element.insertAdjacentHTML("afterend", doc.documentElement.innerHTML)
 		element.remove()
 	}
 }
