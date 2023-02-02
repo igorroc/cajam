@@ -1,6 +1,6 @@
 .hint {
 	position: relative;
-	background: #fff;
+	background: var(--background-color);
 	margin-top: 20px;
 	padding: 10px 20px;
 	border-radius: 20px;
@@ -20,7 +20,7 @@
 	height: 0;
 	border-left: 20px solid transparent;
 	border-right: 20px solid transparent;
-	border-top: 15px solid #fff;
+	border-top: 15px solid var(--background-color);
 	top: 100%;
 	left: 50%;
 	transform: translateX(-50%);

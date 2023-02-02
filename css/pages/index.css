@@ -103,7 +103,8 @@
 	transition: all 200ms ease-out;
 }
 
-.redesSociais .list .item *{
+.redesSociais .list .item * {
+	color: var(--text-color-alternate);
 	transition: all 200ms ease-out;
 }
 
@@ -112,7 +113,7 @@
 	color: white;
 }
 
-.redesSociais .list .item:hover *{
+.redesSociais .list .item:hover * {
 	color: white;
 }
 
@@ -203,7 +204,7 @@
 }
 
 @media (min-width: 860px) {
-	.mainContent p{
+	.mainContent p {
 		width: 80%;
 	}
 	.mainWrapper .mainContentPhoto {
