@@ -23,7 +23,7 @@ async function main() {
 			// }
 		}
 
-		element.innerHTML = importedElement
+		element.insertAdjacentHTML("afterend", importedElement)
 	}
 }
 
