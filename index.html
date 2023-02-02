@@ -16,7 +16,6 @@
 		<link rel="stylesheet" type="text/css" href="./css/reset.css" />
 		<link rel="stylesheet" type="text/css" href="./css/buttons.css" />
 		<link rel="stylesheet" type="text/css" href="./css/pages/index.css" />
-		<link rel="stylesheet" type="text/css" href="./css/footer.css" />
 		<link rel="stylesheet" type="text/css" href="./css/slideShow.css" />
 		<link rel="stylesheet" type="text/css" href="./css/goToTop.css" />
 		<link
@@ -76,7 +75,6 @@
 
 	<body>
 		<import path="header.html"></import>
-		<script src="./js/importComponent.js"></script>
 
 		<a id="goToTop" href="#top" class="hide">
 			<iconify-icon icon="akar-icons:arrow-up"></iconify-icon>
@@ -493,92 +491,9 @@
 			</section>
 		</main>
 
-		<footer>
-			<div class="footerWave">
-				<div class="left"></div>
-				<a class="footerLogo" href="#top">
-					<div class="logo">
-						<img
-							src="./assets/footerLogo.png"
-							alt="Logo do curso de Ciência da Computação"
-						/>
-					</div>
-				</a>
-				<div class="right"></div>
-			</div>
-			<div class="MaxWidthWrapper">
-				<div class="footerWrapper">
-					<div class="footerFloat">
-						<div class="footerContent">
-							<h1>Contato</h1>
-							<ul>
-								<a
-									target="_blank"
-									href="https://goo.gl/maps/FKcmwBJ76WYrLQSj8"
-								>
-									<iconify-icon
-										icon="heroicons:map-pin-solid"
-									></iconify-icon>
-									<span>
-										UESC, Pavilhão do DCET, 1º andar
-									</span>
-								</a>
-								<a target="_blank" href="mailto:colcic@uesc.br">
-									<iconify-icon
-										icon="bi:envelope-fill"
-									></iconify-icon>
-									<span> colcic@uesc.br </span>
-								</a>
-								<a target="_blank" href="tel:7336805110">
-									<iconify-icon
-										icon="ant-design:phone-filled"
-									></iconify-icon>
-									<span> (73) 3680-5110 </span>
-								</a>
-								<a
-									target="_blank"
-									href="https://www.facebook.com/groups/colcic/"
-								>
-									<iconify-icon
-										icon="akar-icons:facebook-fill"
-									></iconify-icon>
-									<span> Facebook </span>
-								</a>
-							</ul>
-						</div>
-						<div class="footerContent">
-							<h1>Endereço</h1>
-							<a
-								target="_blank"
-								href="https://goo.gl/maps/FKcmwBJ76WYrLQSj8"
-								class="linkEndereco"
-							>
-								<p>
-									UNIVERSIDADE ESTADUAL DE SANTA CRUZ - UESC
-								</p>
-								<p>Campus Soane Nazaré de Andrade</p>
-								<p>Rodovia Jorge Amado, Km 16, Salobrinho</p>
-								<p>CEP 45662-900. Ilhéus-Bahia</p>
-							</a>
-						</div>
-					</div>
+		<import path="footer.html"></import>
 
-					<div class="footerCopy">
-						<p>© 2022 - Todos os direitos reservados | COLCIC</p>
-						<p>
-							Desenvolvido por
-							<a
-								target="_blank"
-								href="https://ilrocha.com"
-								id="copyIgor"
-								>Igor Rocha</a
-							>
-						</p>
-					</div>
-				</div>
-			</div>
-		</footer>
-			
+		<script src="./js/importComponent.js"></script>
 		<script src="./js/header.js"></script>
 		<script src="./js/goToTop.js"></script>
 		<script src="./js/scrollAnimation.js"></script>
