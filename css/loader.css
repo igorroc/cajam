@@ -5,9 +5,10 @@
 	width: 100vw;
 	height: 100vh;
 	z-index: 9999;
-	background: #23232388;
+	background: #232323dd;
 	backdrop-filter: blur(15px);
 	-webkit-backdrop-filter: blur(15px);
+	overflow: hidden;
 
 	--cycle-first-color: #5aeb73;
 	--cycle-second-color: #30d39d;
