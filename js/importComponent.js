@@ -1,7 +1,7 @@
 const elements = document.querySelectorAll("import")
 
-async function fetchComponent(path) {
-	const response = await fetch("/components/" + path)
+async function fetchComponent(relative, path) {
+	const response = await fetch(relative + "components/" + path)
 	const text = await response.text()
 	return text
 }
@@ -9,7 +9,8 @@ async function fetchComponent(path) {
 async function main() {
 	for (let element of elements) {
 		const path = element.getAttribute("path")
-		const importedElement = await fetchComponent(path)
+		const relative = element.getAttribute("relative-path")
+		const importedElement = await fetchComponent(relative, path)
 		const props = element.getAttribute("props")
 
 		if (props) {
