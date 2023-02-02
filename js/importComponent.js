@@ -25,6 +25,7 @@ async function main() {
 		}
 
 		element.insertAdjacentHTML("afterend", importedElement)
+		element.remove()
 	}
 }
 
