@@ -179,7 +179,7 @@ header .wrapper .iconMenu div span:nth-child(3) {
 }
 
 /* Show Nav List */
-@media (max-width: 1110px) {
+@media (max-width: 900px) {
 	header.showNavList .wrapper .iconMenu div span {
 		background: var(--cancel-color);
 	}
@@ -200,7 +200,7 @@ header .wrapper .iconMenu div span:nth-child(3) {
 	}
 }
 
-@media (min-width: 1110px) {
+@media (min-width: 900px) {
 	header .wrapper .iconMenu {
 		display: none;
 	}

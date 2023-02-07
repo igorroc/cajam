@@ -1,16 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-	--text-color: #f7f7f7;
+	--text-color: #232323;
 	--text-color-alternate: #232323;
-	--primary-color: #a53192;
-	--primary-color-hover: #732845;
-	--secondary-color: #7df03a;
-	--secondary-color-hover: #38f000;
-	--background-color: #3a3a3a;
-	--background-color-2: #1f1f1f;
-	--variant-background-color: #a53192;
-	--variant-background-color-2: #732845;
+	--primary-color: #5765dd;
+	--primary-color-hover: #363d80;
+	--secondary-color: #e476ff;
+	--secondary-color-hover: #ca5ee6;
+	--background-color: #c5d3e2;
+	--background-color-2: #a1b0c0;
+	--variant-background-color: #aa4cc2;
+	--variant-background-color-2: #ca5ee6;
+	--footer-background-color: #8e24a8;
+	--footer-link-color: #ffb444;
 	--cancel-color: #f73e3e;
 
 	--max-width: 1100px;
