@@ -42,19 +42,19 @@
 	align-items: center;
 }
 
-.centerTable{
+.centerTable {
 	width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
 }
 
 .wrapperTable {
 	overflow: auto;
 	display: flex;
 	align-items: center;
-	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	box-shadow: var(--box-shadow-darker);
 }
 
 .table {

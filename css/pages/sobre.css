@@ -195,7 +195,7 @@
 	text-align: center;
 	gap: 20px;
 	background-color: #dce7f9;
-	box-shadow: 0 0 20px #0001;
+	box-shadow: var(--box-shadow-darker);
 }
 
 .infraestrutura .container .list .card img {
@@ -211,7 +211,7 @@
 	.mainWrapper .mainContentPhoto {
 		display: block;
 	}
-	.mainContent p{
+	.mainContent p {
 		max-width: 80%;
 	}
 }

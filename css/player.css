@@ -13,7 +13,7 @@
 .player > iframe {
 	border-radius: 0 30px;
 	overflow: hidden;
-	box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: var(--box-shadow-darker);
 }
 
 .player:after {
@@ -26,5 +26,5 @@
 	height: 50px;
 	background: var(--secondary-color-hover);
 	transform: translate(-10px, -10px);
-	box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: var(--box-shadow);
 }
