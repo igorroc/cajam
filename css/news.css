@@ -14,6 +14,12 @@
 	box-shadow: var(--box-shadow);
 	border-radius: var(--border-radius-rounded);
 	overflow: hidden;
+
+	transition: all 300ms ease-out;
+}
+
+#news-wrapper .news-item:hover {
+	box-shadow: var(--box-shadow-darker);
 }
 
 #news-wrapper .news-item .item-image {
