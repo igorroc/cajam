@@ -4,7 +4,7 @@
 	background-color: #fff;
 	width: max-content;
 	padding: 10px 20px;
-	border-radius: 20px;
+	border-radius: var(--border-radius-rounded);
 	box-shadow: var(--box-shadow);
 
 	left: var(--mouseX);

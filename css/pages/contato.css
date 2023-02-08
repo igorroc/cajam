@@ -37,7 +37,7 @@
 .mainContent form textarea {
 	background: none;
 	border: 1px solid #232323;
-	border-radius: 10px;
+	border-radius: var(--border-radius-rounded);
 	padding: 10px;
 }
 

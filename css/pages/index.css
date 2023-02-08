@@ -149,7 +149,7 @@
 	width: 100%;
 	max-width: 250px;
 	padding: 50px;
-	border-radius: 5px;
+	border-radius: var(--border-radius-rounded);
 	gap: 10px;
 	background: #fff;
 	box-shadow: var(--box-shadow-darker);
