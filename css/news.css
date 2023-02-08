@@ -36,6 +36,7 @@
 
 #news-wrapper .news-item .item-content span {
 	font-size: 0.8rem;
+	opacity: 0.5;
 }
 
 #news-wrapper .news-item .item-content a {
