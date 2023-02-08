@@ -1,5 +1,5 @@
 header {
-	background-color: #fff;
+	background-color: var(--header-background-color);
 	position: relative;
 	z-index: 999;
 }
@@ -14,8 +14,8 @@ header .wrapper {
 	top: 0;
 	left: 0;
 	right: 0;
-	background-color: #fff;
-	box-shadow: 0 10px 10px #0002;
+	background-color: var(--header-background-color);
+	box-shadow: var(--box-shadow);
 }
 
 header .wrapper .wrapperContent {
@@ -30,7 +30,7 @@ header .wrapper .wrapperContent {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	background-color: #fff;
+	background-color: var(--header-background-color);
 }
 
 header .wrapper .logo {
@@ -49,8 +49,8 @@ header .navList {
 	top: 0;
 	left: 50%;
 	transform: translateX(-50%) translateY(-100%);
-	background: #fff;
-	box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+	background: var(--header-background-color);
+	box-shadow: var(--box-shadow);
 	transition: all 0.3s ease-out;
 }
 
@@ -73,7 +73,7 @@ header .navList ul a {
 	align-items: center;
 	justify-content: center;
 	gap: 5px;
-	color: var(--text-color-alternate);
+	color: var(--header-text-color);
 	transition: all 300ms ease-out;
 }
 
@@ -83,8 +83,9 @@ header .navList ul a * {
 
 header .navList ul li:hover:not(.dropdown),
 header .navList ul a:hover:not(.dropdown) {
-	background: var(--primary-color-hover);
-	color: var(--text-color-alternate);
+	background: var(--header-background-color-hover);
+	color: var(--header-text-color-hover);
+	font-weight: bold;
 }
 
 header .navList ul li[active]:not(.dropdown),
@@ -100,7 +101,7 @@ header .navList ul li[active] .title > * {
 header .navList ul li:hover:not(.dropdown) > *,
 header .navList ul a:hover:not(.dropdown) > *,
 header .navList ul li[active]:not(.dropdown) > * {
-	color: var(--text-color-alternate);
+	color: var(--header-text-color-hover);
 }
 
 header .navList ul li.dropdown {
@@ -179,7 +180,7 @@ header .wrapper .iconMenu div span:nth-child(3) {
 }
 
 /* Show Nav List */
-@media (max-width: 900px) {
+@media (max-width: 1000px) {
 	header.showNavList .wrapper .iconMenu div span {
 		background: var(--cancel-color);
 	}
@@ -200,7 +201,7 @@ header .wrapper .iconMenu div span:nth-child(3) {
 	}
 }
 
-@media (min-width: 900px) {
+@media (min-width: 1000px) {
 	header .wrapper .iconMenu {
 		display: none;
 	}
@@ -236,7 +237,7 @@ header .wrapper .iconMenu div span:nth-child(3) {
 		flex-direction: column;
 		cursor: auto;
 		width: max-content;
-		box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.2);
+		box-shadow: var(--box-shadow-darker);
 	}
 
 	header .navList ul li.dropdown ul a {
