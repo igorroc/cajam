@@ -100,12 +100,12 @@
 	gap: 20px;
 	font-size: 1.5em;
 	font-weight: bold;
-	transition: all 200ms ease-out;
+	transition: var(--transition-smooth);
 }
 
 .redesSociais .list .item * {
 	color: var(--text-color-alternate);
-	transition: all 200ms ease-out;
+	transition: var(--transition-smooth);
 }
 
 .redesSociais .list .item:hover {
@@ -153,7 +153,7 @@
 	gap: 10px;
 	background: #fff;
 	box-shadow: var(--box-shadow-darker);
-	transition: background 200ms ease-out;
+	transition: var(--transition-smooth);
 	text-align: start;
 }
 
@@ -180,7 +180,7 @@
 
 .entidades .cardList .card a iconify-icon {
 	font-size: 1.5em;
-	transition: margin 200ms ease-out;
+	transition: var(--transition-smooth);
 }
 .entidades .cardList .card a:hover iconify-icon {
 	margin-left: 10px;

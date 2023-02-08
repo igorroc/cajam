@@ -54,7 +54,7 @@
 	flex-direction: column;
 	gap: 20px;
 	text-decoration: none;
-	transition: all 200ms ease-out;
+	transition: var(--transition-smooth);
 }
 
 .slideShow .slide:hover {
