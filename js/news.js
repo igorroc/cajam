@@ -30,7 +30,9 @@ const newsHTML = news.map((newsItem) => {
 	if (!newsItem.url)
 		return `
         <div class="news-item">
-            <img src="${newsItem.image}" />
+			<div class="item-image">
+                <img src="${newsItem.image}" />
+			</div>
             <div class="item-content">
                 <span>${newsItem.date}</span>
                 <h2>${newsItem.title}</h2>
@@ -40,7 +42,9 @@ const newsHTML = news.map((newsItem) => {
     `
 	return `
         <div class="news-item">
-            <img src="${newsItem.image}" />
+			<div class="item-image">
+				<img src="${newsItem.image}" />
+			</div>
             <div class="item-content">
                 <span>${newsItem.date}</span>
                 <h2>${newsItem.title}</h2>
