@@ -4,7 +4,7 @@
 		<meta charset="UTF-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Contato | CAJAM</title>
+		<title>Composição do CA | CAJAM</title>
 
 		<link
 			rel="shortcut icon"
@@ -17,9 +17,9 @@
 		<link
 			rel="stylesheet"
 			type="text/css"
-			href="../css/pages/contato.css"
+			href="../css/pages/colegiado.css"
 		/>
-		<link rel="stylesheet" type="text/css" href="../css/tooltip.css" />
+		<link rel="stylesheet" type="text/css" href="../css/hint.css" />
 		<link rel="stylesheet" type="text/css" href="../css/goToTop.css" />
 
 		<!-- Primary Meta Tags -->
@@ -93,44 +93,55 @@
 		</a>
 
 		<main>
-			<section>
+			<section variant>
 				<div class="MaxWidthWrapper">
 					<div class="mainWrapper">
-						<div class="mainContentPhoto">
-							<img src="../assets/contact.png" alt="" />
-						</div>
 						<div class="mainContent">
-							<h1>Fale com o CAJAM</h1>
-							<form action="">
-								<input
-									type="text"
-									placeholder="Nome *"
-									required
-								/>
-								<input
-									type="email"
-									placeholder="Email *"
-									required
-								/>
-								<input type="text" placeholder="Assunto" />
-								<textarea
-									name="mensagem"
-									id="mensagem"
-									cols="30"
-									rows="10"
-									placeholder="Digite sua mensagem"
-								></textarea>
-								<button
-									type="submit"
-									class="PrimaryButton"
-									disabled
-								>
-									Enviar
-								</button>
-								<!-- <div class="tooltipMouse">
-									Formulário em construção
-								</div> -->
-							</form>
+							<h1>
+								Composição do <br />
+								<b>Centro Acadêmico</b>
+							</h1>
+							<p>
+								O Colegiado de Curso é órgão da administração
+								setorial de deliberação coletiva, supervisão e
+								coordenação didático-pedagógica do curso e
+								integra a estrutura da Universidade Estadual de
+								Santa Cruz. Assim, o colegiado está intimamente
+								ligado aos aspectos pedagógicos do curso,
+								definindo o projeto pedagógico, grade
+								curricular, dentre outros. Este site visa ser um
+								elo entre a comunidade, estudantes e a
+								instituição, promovendo maior integração e
+								dinamismo na comunicação entre ambos.
+							</p>
+
+							<a href="#coordenacao" class="SecondaryButton">
+								Conheça a coordenação
+							</a>
+						</div>
+						<div class="mainContentPhoto">
+							<img src="../assets/colegiado.png" alt="" />
+						</div>
+					</div>
+				</div>
+			</section>
+			<section>
+				<div class="MaxWidthWrapper">
+					<div class="composicao">
+						<h2>Composição - Biênio 2020-2022</h2>
+
+						<p class="hint mobile">Arraste para mais informações</p>
+						<div class="centerTable">
+							<div class="wrapperTable">
+								<div class="table" id="tableColegiado">
+									<div class="header">
+										<h3>Matéria</h3>
+										<h3>Departamento/Área</h3>
+										<h3>Membro</h3>
+									</div>
+									<div class="content"></div>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>
@@ -138,84 +149,20 @@
 
 			<section>
 				<div class="MaxWidthWrapper">
-					<div class="mainWrapper noGap">
-						<div class="contact">
-							<h2>Encontre-nos</h2>
-							<div class="contactWrapper">
-								<div class="contactItem">
-									<div class="contactIcon">
-										<iconify-icon
-											icon="heroicons:map-pin-solid"
-										></iconify-icon>
-									</div>
+					<div class="coordenação" id="coordenacao">
+						<h2>Coordenação</h2>
 
-									<div class="contactInfo">
-										<div class="title">Endereço</div>
-										<div class="content">
-											<p>Pavilhão Adonias Filho</p>
-											<p>UESC, Ilhéus-Ba</p>
-										</div>
+						<p class="hint mobile">Arraste para mais informações</p>
+						<div class="centerTable">
+							<div class="wrapperTable">
+								<div class="table" id="tableCoordenação">
+									<div class="header">
+										<h3>Nome</h3>
+										<h3>Cargo</h3>
 									</div>
-								</div>
-								<div class="contactItem">
-									<div class="contactIcon">
-										<iconify-icon
-											icon="fa-solid:envelope"
-										></iconify-icon>
-									</div>
-
-									<div class="contactInfo">
-										<div class="title">E-mail</div>
-										<div class="content">
-											<div>
-												<a
-													href="mailto:cajamchapa02@gmail.com"
-													>cajamchapa02@gmail.com</a
-												>
-												<span>(Centro acadêmico)</span>
-											</div>
-											<div>
-												<a
-													href="mailto:cajamlab@uesc.br"
-													>cajamlab@uesc.br</a
-												>
-												<span
-													>(Colegiado)</span
-												>
-											</div>
-										</div>
-									</div>
-								</div>
-
-								<div class="contactItem">
-									<div class="contactIcon">
-										<iconify-icon
-											icon="ant-design:phone-filled"
-										></iconify-icon>
-									</div>
-
-									<div class="contactInfo">
-										<div class="title">Telefone</div>
-										<div class="content">
-											<div>
-												<a href="tel:7336805110"
-													>(73) 3680-5110</a
-												>
-												<span>(Secretária)</span>
-											</div>
-											<div>
-												<a href="tel:7336805290"
-													>(73) 3680-5290</a
-												>
-												<span>(Laboratórios)</span>
-											</div>
-										</div>
-									</div>
+									<div class="content"></div>
 								</div>
 							</div>
-						</div>
-						<div class="mainContentPhoto contactPhoto">
-							<img src="../assets/world.png" alt="" />
 						</div>
 					</div>
 				</div>
@@ -227,8 +174,7 @@
 		<script src="../js/importComponent.js"></script>
 		<script src="../js/loader.js" defer></script>
 		<script src="../js/header.js"></script>
-		<script src="../js/listaSoftwares.js"></script>
-		<script src="../js/tooltip.js"></script>
+		<script src="../js/colegiado.js"></script>
 		<script src="../js/goToTop.js"></script>
 	</body>
 </html>
