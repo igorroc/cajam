@@ -2,27 +2,27 @@ const newsWrapper = document.querySelector("#news-wrapper")
 
 const news = [
 	{
-		title: "Saber programar é um Super Poder?",
-		image: "https://picsum.photos/400/350",
-		url: "https://ilrocha.com",
+		title: "Segundo Seminário IBADPP",
+		image: "https://dl1.instavideosave.com/?url=https%3A%2F%2Fscontent-cdg4-1.cdninstagram.com%2Fv%2Ft51.36329-15%2F337336366_750535916457163_4693296022168756848_n.jpg%3Fstp%3Ddst-jpg_s640x640%26_nc_cat%3D102%26ccb%3D1-7%26_nc_sid%3D8ae9d6%26_nc_ohc%3DODKlN0o8X3MAX_3ypyx%26_nc_ht%3Dscontent-cdg4-1.cdninstagram.com%26oh%3D00_AfDyRkeGVk93OG4W2Lt-dqr28cWza_MXHxEsefV3MSjWkg%26oe%3D644DD9C4&type=mp4&dlheader=image/jpeg&title=62600680960",
+		url: "https://instagram.com/ibadpp?igshid=YmMyMTA2M2Y=",
 		date: "07/04/2001",
 		content:
-			"Reprehenderit excepteur minim et Lorem qui deserunt aliquip duis adipisicing ea. Aute incididunt excepteur non consequat mollit reprehenderit eu aute nulla incididunt.",
+			"O Instituto Baiano de Direito Processual Penal (IBADPP) realizará o segundo seminário regional na UESC nos dias 25 e 26 de maio, realizando a sua inscrição para garantir a sua vaga.",
 	},
 	{
-		title: "Para entender um pouco mais sobre BITCOIN!",
-		image: "https://picsum.photos/300/300",
+		title: "Eleições para o Centro Acadêmico",
+		image: "https://drive.google.com/u/0/uc?id=1rEn5yMmjil-JMyWPIq9H0eNEyA21vole&export=download",
 		date: "12/07/2022",
 		content:
-			"Aute incididunt excepteur non consequat mollit reprehenderit eu aute nulla incididunt. Esse nostrud nisi exercitation qui laboris anim qui adipisicing id aute.",
+			"Conheça os integrantes e propostas da chapa 02, as eleições irão acontecer no dia 05 de Maio, leve a sua identidade com foto e vote certo na urna.",
 	},
 	{
-		title: "Como não cair na sindrome do LABIRINTO?",
-		image: "https://picsum.photos/400/300",
-		url: "https://google.com",
+		title: "dicas_salobrinho",
+		image: "https://drive.google.com/u/0/uc?id=1mBhXHVNLypL3WtW1y6ewZpn_dWytFCsl&export=download",
+		url: "https://instagram.com/dicas_salobrinho?igshid=YmMyMTA2M2Y=",
 		date: "01/02/2023",
 		content:
-			"Anim amet officia aliqua proident laboris deserunt aliqua sint pariatur anim.",
+			"O dicas salobrinho é composto por cinco estudantes da UESC, mas você sabia que dois estudantes do curso de direito são administradores e fundadores da página dicas_salobrinho? Inclusive, esses dois alunos estão na nossa chapa.",
 	},
 ]
 

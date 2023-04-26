@@ -1,65 +1,59 @@
 const atividades = [
 	{
 		type: "Participação",
-		title: "Centro Acadêmico de Ciência da Computação da UESC - <b>CACIC</b>",
+		title: "Projeto de Pesquisa",
+		description: "até 60 horas",
+	},
+	{
+		type: "Participação",
+		title: "Projeto de Extensão",
+		description: "até 60 horas",
+	},
+	{
+		type: "Participação",
+		title: "Projeto de Iniciação à Docência",
+		description: "até 60 horas",
+	},
+	{
+		type: "Participação",
+		title: "Eventos da área de Direito e afins",
+		description: "até 60 horas",
+	},
+	{
+		type: "Participação",
+		title: "como aluno aprovado em disciplina de qualquer Departamento e não obrigatória no Curso de Direito",
+		description: "até 60 horas",
+	},
+	{
+		type: "Participação",
+		title: "Trabalho voluntário",
+		description: "até 60 horas",
+	},
+	{
+		type: "Publicação",
+		title: "Artigo em periódico indexado ou evento científico",
+		description: "até 60 horas (5h por unidade)",
+	},
+	{
+		type: "Participação",
+		title: "Mini-cursos organizados pelo DCJUR e por outros Departamentos ou Entidades",
+		description: "até 60 horas",
+	},
+	{
+		type: "Participação",
+		title: "como aluno ouvinte em disciplinas de cursos Lato Sensu",
+		description: "até 60 horas",
+	},
+	{
+		type: "Estágio",
+		title: "Supervisionado não-obrigatório, na forma da Resolução CONSEPE nº 33/2009",
+		description: "até 60 horas",
+	},
+	{
+		type: "Participação",
+		title: "atividades típicas da área",
 		description:
-			"Nos seguintes cargos: coordenador geral, membros da comissão de assuntos acadêmicos, membros da comissão de eventos, secretária e tesoureiro: 50 horas/ano, não podendo exceder o total de 100 horas.",
-	},
-	{
-		type: "Participação",
-		title: "Empresa Júnior de Ciência da Computação - <b>TecnoJr</b>",
-		description:
-			"Nos seguintes cargos: presidente, conselheiro, diretor ou trainee: 50 horas/ano",
-	},
-	{
-		type: "Participação",
-		title: "Semana de Informática da UESC - <b>SINFORM</b>",
-		description: "Nas atividades de apoio ao evento (alunos não-CACIC): 30 horas/evento"
-	},
-	{
-		type: "Participação",
-		title: "Semana de Informática da UESC - <b>SINFORM</b>",
-		description: "Na atividade de instrutor de Minicursos à comunidade: 30 horas/minicurso"
-	},
-	{
-		type: "Manutenção",
-		title: "não remunerada de Laboratórios da Computação",
-		description: "30 horas/semestre"
-	},
-	{
-		type: "Participação",
-		title: "Eventos científicos relacionados à Computação",
-		description: "Máximo 80 horas"
-	},
-	{
-		type: "Participação",
-		title: "Orientando em Projeto de Iniciação Cientifica",
-		description: "50 horas/projeto"
-	},
-	{
-		type: "Participação",
-		title: "Projetos de Extensão",
-		description: "50 horas/projeto"
-	},
-	{
-		type: "Atividades",
-		title: "Voluntárias ligadas a Computação",
-		description: "Máximo de 50 horas/ano"
-	},
-	{
-		type: "Atividades",
-		title: "Especiais apreciadas e aprovadas pelo Colegiado",
-		description: "Máximo de 50 horas/ano/atividade"
-	},
-	{
-		type: "Atividades",
-		title: "Monitoria na UESC",
-		description: "Máximo de 80 horas"
-	},
-	{
-		type: "Atividades",
-		title: "Estágio não curricular",
-		description: "Máximo de 80 horas"
+			"(Júris, audiências, diligências, sessões de julgamento, processos administrativos, etc.), desde que não computados para horas de Estágio Supervisionado e atestados pela Coordenação de Estágio. Até 60 horas",
 	},
 ]
 

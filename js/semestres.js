@@ -3,32 +3,28 @@ const semestres = [
 		title: "1º Semestre",
 		lista: [
 			{
-				name: "Cálculo Aplicado I",
-				link: "../files/ementas/1/Calculo_aplicado_I.pdf",
+				name: "Introdução ao Direito",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/1introducao_direito.pdf",
 			},
 			{
-				name: "Física para Ciência da Computação",
-				link: "../files/ementas/1/Fisica_para_computacao.pdf",
+				name: "Elementos de Sociologia e Antropologia Jurídicas",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/1elementos_sociologia_antropologia_juridicas.pdf",
 			},
 			{
-				name: "Inglês Instrumental",
-				link: "../files/ementas/1/Ingles_instrumental.pdf",
+				name: "Teoria do Estado e Ciência Política",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/1teoria_estado_ciencia_politica.pdf",
 			},
 			{
-				name: "Introdução à Ciência da Computação",
-				link: "../files/ementas/1/Introducao_a_ciencia_da_computacao.pdf",
+				name: "Redação Jurídica",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/1redacao_juridica.pdf",
 			},
 			{
-				name: "Linguagem de Programação I",
-				link: "../files/ementas/1/Linguagem_de_programacao_I.pdf",
+				name: "Metodologia da Pesquisa",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/1metodologia_pesquisa.pdf",
 			},
 			{
-				name: "Lógica para Computação",
-				link: "../files/ementas/1/Logica_para_computacao.pdf",
-			},
-			{
-				name: "Metodologia da Pesquisa Científica",
-				link: "../files/ementas/1/Metodologia_da_pesquisa_cientifica.pdf",
+				name: "Filosofia do Direito",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/1filosofia_direito.pdf",
 			},
 		],
 	},
@@ -36,28 +32,28 @@ const semestres = [
 		title: "2º Semestre",
 		lista: [
 			{
-				name: "Álgebra e Geometria Analítica",
-				link: "../files/ementas/2/Algebra_e_geometria_analitica.pdf",
+				name: "Direito Civil I",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/2direito_civil1.pdf",
 			},
 			{
-				name: "Cálculo Aplicado II",
-				link: "../files/ementas/2/Calculo_A_II.pdf",
+				name: "Hermenêutica Jurídica",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/2hermeneutica_juridica.pdf",
 			},
 			{
-				name: "Eletrônica",
-				link: "../files/ementas/2/Eletronica.pdf",
+				name: "Economia Política",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/2economia_politica.pdf",
 			},
 			{
-				name: "Fundamentos Matemáticos para Ciência da Computação",
-				link: "../files/ementas/2/Fundamentos_matematicos_para_computacao.pdf",
+				name: "Ética Geral e Profissional",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/2etica_geral_profissional.pdf",
 			},
 			{
-				name: "Linguagem de Programação II",
-				link: "../files/ementas/2/Linguagem_de_programacao_II.pdf",
+				name: "Psicologia Aplicada ao Direito",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/2psicologia_aplicada_direito.pdf",
 			},
 			{
-				name: "Lógica Digital I",
-				link: "../files/ementas/2/Logica_digital_I.pdf",
+				name: "História e Direito",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/2historia_direito.pdf",
 			},
 		],
 	},
@@ -65,24 +61,24 @@ const semestres = [
 		title: "3º Semestre",
 		lista: [
 			{
-				name: "Álgebra Abstrata",
-				link: "../files/ementas/3/Algebra_abstrata.pdf",
+				name: "Direito Constitucional I",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/3direito_constitucional_1.pdf",
 			},
 			{
-				name: "Cálculo Aplicado III",
-				link: "../files/ementas/3/Calculo_aplicado_III.pdf",
+				name: "Direito Empresarial I",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/3direito_empresarial_1.pdf",
 			},
 			{
-				name: "Estrutura de Dados",
-				link: "../files/ementas/3/Estrutura_de_dados.pdf",
+				name: "Teoria Geral do Processo",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/3teoria_geral_processo.pdf",
 			},
 			{
-				name: "Fundamentos da Economia",
-				link: "../files/ementas/3/Fundamentos_de_economia.pdf",
+				name: "Direito Civil II",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/3direito_civil_2.pdf",
 			},
 			{
-				name: "Linguagem de Programação III",
-				link: "../files/ementas/3/Linguagem_de_programacao_III.pdf",
+				name: "Direito Penal I",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/3direito_penal_1.pdf",
 			},
 			{
 				name: "Lógica Digital II",
@@ -94,32 +90,24 @@ const semestres = [
 		title: "4º Semestre",
 		lista: [
 			{
-				name: "Análise de Sistemas de Informação",
-				link: "../files/ementas/4/Analise_dos_sistemas_de_informacao.pdf",
+				name: "Direito Empresarial II",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/4direito_empresarial_2.pdf",
 			},
 			{
-				name: "Computação Gráfica",
-				link: "../files/ementas/4/Computacao_grafica.pdf",
+				name: "Direito Constitucional II",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/4direito_constitucional_2.pdf",
 			},
 			{
-				name: "Direito e Legislação",
-				link: "../files/ementas/4/Direito_e_legislacao.pdf",
+				name: "Direito Civil III",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/4direito_civil_3.pdf",
 			},
 			{
-				name: "Organização e Arquitetura dos Computadores",
-				link: "../files/ementas/4/organizacao_e_arquitetura_dos_computadores.pdf",
+				name: "Direito Processual Civil I",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/4direito_processual_civil_1.pdf",
 			},
 			{
-				name: "Organização e Recuperação da Informação",
-				link: "../files/ementas/4/Organizacao_e_recuperacao_da_informacao.pdf",
-			},
-			{
-				name: "Probabilidade e Estatística",
-				link: "../files/ementas/4/Probabilidade_e_estatistica.pdf",
-			},
-			{
-				name: "Projeto e Análise de Algoritmos",
-				link: "../files/ementas/4/Projeto_e_analise_de_algoritmos.pdf",
+				name: "Direito Penal II",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/4direito_penal_2.pdf",
 			},
 		],
 	},
@@ -127,32 +115,28 @@ const semestres = [
 		title: "5º Semestre",
 		lista: [
 			{
-				name: "Análise Numérica",
-				link: "../files/ementas/5/Analise_numerica.pdf",
+				name: "Direito Processual Civil II",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/5direito_processual_civil_2.pdf",
 			},
 			{
-				name: "Banco de Dados I",
-				link: "../files/ementas/5/Banco_de_dados_I.pdf",
+				name: "Direito Administrativo I",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/5direito_administrativo_1.pdf",
 			},
 			{
-				name: "Conceitos e Linguagens de Programação",
-				link: "../files/ementas/5/Conceitos_de_linguagens_de_programacao.pdf",
+				name: "Direito Civil IV",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/5direito_civil_4.pdf",
 			},
 			{
-				name: "Inteligência Artificial",
-				link: "../files/ementas/5/Inteligencia_artificial.pdf",
+				name: "Direito Empresarial III",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/5direito_empresarial_3.pdf",
 			},
 			{
-				name: "Sistemas Operacionais",
-				link: "../files/ementas/5/Sistemas_operacionais.pdf",
+				name: "Direito do Trabalho I",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/5direito_trabalho_1.pdf",
 			},
 			{
-				name: "Software Básico",
-				link: "../files/ementas/5/Software_Basico.pdf",
-			},
-			{
-				name: "Teoria da Computação",
-				link: "../files/ementas/5/Teoria_da_computacao.pdf",
+				name: "Direito Penal III",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/5direito_penal_3.pdf",
 			},
 		],
 	},
@@ -160,24 +144,28 @@ const semestres = [
 		title: "6º Semestre",
 		lista: [
 			{
-				name: "Administração para Computação",
-				link: "../files/ementas/6/Administracao_para_computacao.pdf",
+				name: "Direito Processual Civil III",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/6direito_processual_civil_3.pdf",
 			},
 			{
-				name: "Banco de Dados II",
-				link: "../files/ementas/6/Banco_de_dados_II.pdf",
+				name: "Direito Processual Penal I",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/6direito_processual_penal_1.pdf",
 			},
 			{
-				name: "Compiladores",
-				link: "../files/ementas/6/Compiladores.pdf",
+				name: "Direito Civil V",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/6direito_civil_5.pdf",
 			},
 			{
-				name: "Interfaces Homem-Máquina",
-				link: "../files/ementas/6/Interfaces_Homem_Mquina.pdf",
+				name: "Direito Penal IV",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/6direito_penal_4.pdf",
 			},
 			{
-				name: "Redes de Computadores I",
-				link: "../files/ementas/6/Redes_de_computadores_I.pdf",
+				name: "Direito Administrativo II",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/6direito_administrativo_2.pdf",
+			},
+			{
+				name: "Direito do Trabalho II",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/6direito_trabalho_2.pdf",
 			},
 		],
 	},
@@ -185,24 +173,103 @@ const semestres = [
 		title: "7º Semestre",
 		lista: [
 			{
-				name: "Empreendedor em Informática",
-				link: "../files/ementas/7/Empreendedor_em_informatica.pdf",
+				name: "Direito Financeiro",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/7direito_financeiro.pdf",
 			},
 			{
-				name: "Engenharia de Software",
-				link: "../files/ementas/7/Engenharia_Software.pdf",
+				name: "Direito Processual Penal II",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/7direito_processual_penal_2.pdf",
 			},
 			{
-				name: "Redes de Computadores II",
-				link: "../files/ementas/7/Redes_computadores_II.pdf",
+				name: "Direito Tributário I",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/7direito_tributario_1.pdf",
 			},
 			{
-				name: "Sistemas Distribuídos",
-				link: "../files/ementas/7/Sistemas_distribuidos.pdf",
+				name: "Direito Civil VI",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/7direito_civil_6.pdf",
 			},
 			{
-				name: "Tecnologia e Sociedade",
-				link: "../files/ementas/7/Tecnologia_e_sociedade.pdf",
+				name: "Medicina Legal",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/7medicina_legal.pdf",
+			},
+		],
+	},
+	{
+		title: "8º Semestre",
+		lista: [
+			{
+				name: "Direito Processual Penal III",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/8direito_processual_penal_3.pdf",
+			},
+			{
+				name: "Direito Municipal",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/8direito_municipal.pdf",
+			},
+			{
+				name: "Direito Ambiental",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/8direito_ambiental.pdf",
+			},
+			{
+				name: "Direito Tributário II",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/8direito_tributario_2.pdf",
+			},
+			{
+				name: "Prática Jurídica I",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/8pratica_juridica_1.pdf",
+			},
+			{
+				name: "Prática de Estágio Supervisionado - ESAD I",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/8esad_1.pdf",
+			},
+		],
+	},
+	{
+		title: "9º Semestre",
+		lista: [
+			{
+				name: "Prática Jurídica II",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/9pratica_juridica_2.pdf",
+			},
+			{
+				name: "Prática de Estágio Supervisionado - ESAD II",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/9esad_2.pdf",
+			},
+			{
+				name: "Orientação do Trabalho Monográfico I",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/9orientacao_trabalho_monografico_1.pdf",
+			},
+			{
+				name: "Direito Internacional Publico e Privado",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/9direito_internacional_publico_privado.pdf",
+			},
+			{
+				name: "Direito Processual do Trabalho",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/9direito_processual_trabalho.pdf",
+			},
+			{
+				name: "Direito Agrário",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/9direito_agrario.pdf",
+			},
+		],
+	},
+	{
+		title: "10º Semestre",
+		lista: [
+			{
+				name: "Prática Jurídica III",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/10pratica_juridica_3.pdf",
+			},
+			{
+				name: "Prática de Estágio Supervisionado - ESAD III",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/10esad_3.pdf",
+			},
+			{
+				name: "Orientação do Trabalho Monográfico II",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/10orientacao_trabalho_monografico_2.pdf",
+			},
+			{
+				name: "Direito da Criança e do Adolescente",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/10direito_crianca_adolescente.pdf",
 			},
 		],
 	},
@@ -210,92 +277,72 @@ const semestres = [
 		title: "Optativas",
 		lista: [
 			{
-				name: "Administração e Segurança de Redes",
-				link: "../files/ementas/OP/Administracao_e_seguranca_de_redes.pdf",
+				name: "Direito Coletivo do Trabalho",
 			},
 			{
-				name: "Aquisição de Conhecimento",
-				link: "../files/ementas/OP/Aquisicao_conhecimento.pdf",
+				name: "Direito Econômico",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_direito_economico.pdf",
 			},
 			{
-				name: "Banco de Dados Orientado a Objetos",
-				link: "../files/ementas/OP/Banco_de_dados_orientado_a_objetos.pdf",
+				name: "Direito Bancário e Mercado de Capitais",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_direito_bancario_mercado_capitais.pdf",
 			},
 			{
-				name: "Computação Bioinspirada",
-				link: "../files/ementas/OP/Computacao_bioinspirada.pdf",
+				name: "Seguridade Social",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_seguridade_social.pdf",
 			},
 			{
-				name: "Computação Quântica",
-				link: "../files/ementas/OP/Computacao_quantica.pdf",
+				name: "Temas Especiais de Direito Civil",
 			},
 			{
-				name: "Controle de Sistemas Tecnologias e Dispositivos",
-				link: "../files/ementas/OP/Controle_de_sistemas_tecnologias_e_dispositivos.pdf",
+				name: "Língua Brasileira de Sinais - LIBRAS",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_lingua_brasileira_sinais.pdf",
 			},
 			{
-				name: "Dinâmica de Sistemas",
-				link: "../files/ementas/OP/Dinamica_dos_sistemas.pdf",
+				name: "Direito do Consumidor",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_direito_consumidor.pdf",
 			},
 			{
-				name: "Introdução a Bioinformática",
-				link: "../files/ementas/OP/Introducao_a_bioinformatica.pdf",
+				name: "Temas Especiais de Direito Penal",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_temas_especiais_direito_penal.pdf",
 			},
 			{
-				name: "Introdução a Pesquisa Operacional",
-				link: "../files/ementas/OP/Introducao_a_pesquisa_operacional.pdf",
+				name: "Direito Urbanístico",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_direito_urbanistico.pdf",
 			},
 			{
-				name: "Laboratório e Organização de Computadores",
-				link: "../files/ementas/OP/laboratorio_e_organizacao_de_computadores.pdf",
+				name: "Temas Especiais de Direito do Trabalho",
 			},
 			{
-				name: "Processamento de Imagens",
-				link: "../files/ementas/OP/Processamento_de_imagens.pdf",
+				name: "Criminologia",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_criminologia.pdf",
 			},
 			{
-				name: "Processamento Paralelo",
-				link: "../files/ementas/OP/Processamento_paralelo.pdf",
+				name: "Direito e Inclusão",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_direito_inclusao.pdf",
 			},
 			{
-				name: "Sistemas Especialistas",
-				link: "../files/ementas/OP/Sistemas_especialistas.pdf",
+				name: "Teoria dos Direitos Difusos e Coletivos",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_teoria_direitos_difusos_coletivos.pdf",
 			},
 			{
-				name: "Tecnologia de Redes a Grandes Distâncias",
-				link: "../files/ementas/OP/Tecnologia_de_redes_a_grandes_distancias.pdf",
+				name: "Soluções Alternativas de Conflitos",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_solucoes_alternativas_conflitos.pdf",
 			},
 			{
-				name: "Tecnologia e Educação",
-				link: "../files/ementas/OP/Tecnologia_e_educacao.pdf",
+				name: "Temas Especiais de Direito Constitucional",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_temas_especiais_direito_constitucional.pdf",
 			},
 			{
-				name: "Tópicos Avançados em Algoritmos",
-				link: "../files/ementas/OP/Topicos_avancados_em_algoritmos.pdf",
+				name: "Direito Eleitoral",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_direito_eleitoral.pdf",
 			},
 			{
-				name: "Tópicos Avançados em Computação I",
-				link: "../files/ementas/OP/Topicos_avancados_em_computacao_I.pdf",
+				name: "Direitos Humanos",
 			},
 			{
-				name: "Tópicos Avançados em Computação II",
-				link: "../files/ementas/OP/Topicos_avancados_em_computacao_II.pdf",
-			},
-			{
-				name: "Dispositivos Móveis",
-				link: "../files/ementas/OP/tacII_dispositivosMoveis_profJorge.pdf",
-			},
-			{
-				name: "Qualidade, Processos e Gestão de Software",
-				link: "../files/ementas/OP/Proposta_Qualidade_Processos_GestaoSw_profAlfredo.pdf",
-			},
-			{
-				name: "Criptografia",
-				link: "../files/ementas/OP/CET111-TACI-Criptografia-programaDisciplina.pdf",
-			},
-			{
-				name: "C Avançado",
-				link: "../files/ementas/OP/C%20Avanado%20Programa.pdf",
+				name: "Leitura e Produção de Textos Jurídicos",
+				link: "http://www.uesc.br/cursos/graduacao/bacharelado/direito/arquivos/op_leitura_producao_textos_juridicos.pdf",
 			},
 		],
 	},
