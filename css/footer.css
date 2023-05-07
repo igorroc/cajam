@@ -123,6 +123,11 @@ footer .footerContent ul a span {
 	transition: var(--transition-smooth);
 }
 
+footer .footerContent ul a i {
+	color: #fff;
+	opacity: 0.5;
+}
+
 footer .footerContent ul a:hover span {
 	color: var(--footer-link-color);
 }
