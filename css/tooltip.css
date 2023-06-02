@@ -10,9 +10,9 @@
 	left: var(--mouseX);
 	top: var(--mouseY);
 
-    transform: translate(calc(-100% + 10px), -350%);
-    
-    opacity: 0;
+	transform: translate(calc(-100% + 10px), -350%);
+
+	opacity: 0;
 }
 
 .tooltipMouse:after {

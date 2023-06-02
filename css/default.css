@@ -30,7 +30,7 @@
 	--border-radius-rounded: 1em;
 
 	--transition-smooth: all 0.3s ease-in-out;
-	--transition-smooth-slow: all 	1s ease-in-out;
+	--transition-smooth-slow: all 1s ease-in-out;
 
 	--max-width: 1100px;
 }
