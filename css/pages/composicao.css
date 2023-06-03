@@ -25,13 +25,13 @@
 	font-size: 2em;
 	color: #fff;
 }
-
-.mainContent p {
-	color: #fff;
-}
-
 .mainContent h1 b {
 	color: var(--secondary-color);
+}
+
+.mainContent p,
+.mainContent p b {
+	color: #fff;
 }
 
 .coordenação,
